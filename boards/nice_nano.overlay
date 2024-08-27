@@ -1,0 +1,28 @@
+&spi1 {
+    compatible = "nordic,nrf-spi";
+    status = "okay";
+    mosi-pin = <27>;
+    // Unused pins, needed for SPI definition, but not used by the ws2812 driver itself
+    sck-pin = <5>;
+    miso-pin = <7>;
+
+    led_strip: ws2182@0 {
+        compatible = "worldsemi,ws2182-spi";
+        label = "WS2182";
+
+        /* SPI */
+        reg = <0> /* ignored, buut necessary for SPI bindings */
+        spi-max frequency = <4000000>;
+
+        /* WS2182 */
+        chain-length = <60>;
+        spi-one-frame = <0x70>;
+        spi-zero-frame = <0x40>;
+    };
+}'
+
+/ {
+    chosen {
+        zmk,underglow = &led_strip;
+    };
+};
