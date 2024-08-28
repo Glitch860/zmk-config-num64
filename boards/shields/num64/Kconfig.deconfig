@@ -1,6 +1,6 @@
 if SHIELD_NUM64
             
  config ZMK_KEYBOARD_NAME
-     default "Num64"
+     default "num64"
 
 endif
