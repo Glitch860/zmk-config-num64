@@ -63,6 +63,3 @@ keymap {
          };
     };
 };
-&led_strip {
-    chain-length = <60>;
-};
