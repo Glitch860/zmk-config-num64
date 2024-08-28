@@ -34,7 +34,7 @@ keymap {
                 &kp ESC            &none      &kp HOME   &kp UP           &kp END      &kp PSCRN  &kp PAUSE_BREAK   &kp  PG_UP          &kp UP       &kp PG_DN  &kp C_BRI_UP  &kp DEL                   &kp KP_NUM     &none            &kp KP_PLUS
                 &lt SETTINGS LCTRL &none      &kp LEFT   &kp DOWN         &kp RIGHT    &kp LC(F)  &none             &kp  LEFT           &kp DOWN     &kp RIGHT  &kp C_BRI_DN  &kp LG(L)                 &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp KP_MINUS
                 &kp LSHIFT         &none      &kp LC(X)  &kp LC(C)        &kp LC(V)    &kp INS    &kp INS           &none               &none        &none      &none         &kp RSHIFT  &kp C_VOL_UP  &none          &none            &none
-                                   &kp LWIN   &kp LALT   &lt NUMBER LBKT  &kp BSPC                &kp SPACE         &lt FUNCTION ENTER  &lt FN RBKT  &kp RALT   &kp K_APP     &kp MUTE    &kp C_VOL_DN  &kp C_PP       &kp KP_DOT       &kp KP_ENTER
+                                   &kp LWIN   &kp LALT   &lt NUMBER LBKT  &kp BSPC                &kp SPACE         &lt FUNCTION ENTER  &lt FN RBKT  &kp RALT   &kp K_APP     &kp C_MUTE  &kp C_VOL_DN  &kp C_PP       &kp KP_DOT       &kp KP_ENTER
             >;
          };
         number_layer {
