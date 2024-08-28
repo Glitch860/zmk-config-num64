@@ -35,7 +35,8 @@ keymap {
                 &lt SETTINGS LCTRL &none      &kp LEFT   &kp DOWN         &kp RIGHT    &kp LC(F)  &none             &kp  LEFT           &kp DOWN     &kp RIGHT  &kp C_BRI_DN  &kp LG(L)                 &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp KP_MINUS
                 &kp LSHIFT         &none      &kp LC(X)  &kp LC(C)        &kp LC(V)    &kp INS    &kp INS           &none               &none        &none      &none         &kp RSHIFT  &kp C_VOL_UP  &none          &none            &none
                                    &kp LWIN   &kp LALT   &lt NUMBER LBKT  &kp BSPC                &kp SPACE         &lt FUNCTION ENTER  &lt FN RBKT  &kp RALT   &kp K_APP     &kp MUTE    &kp C_VOL_DN  &kp C_PP       &kp KP_DOT       &kp KP_ENTER
-        };
+            >;
+         };
         number_layer {
             bindings = <
                 &kp GRAVE     &kp EXCL   &kp AT     &kp HASH      &kp DOLLAR         &kp PERCENT    &kp CARET    &kp  AMPS            &kp ASTERISK     &kp LPAR   &kp RPAR   &kp DEL             &kp KP_N7  &kp KP_N8  &kp KP_N9
