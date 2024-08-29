@@ -16,6 +16,10 @@
 #define SETTINGS 3
 #define FN 4
 
+&led_strip {
+    chain-length = <60>;
+};
+
 / {
 
 keymap {
