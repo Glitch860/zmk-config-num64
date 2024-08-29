@@ -16,14 +16,6 @@ config ZMK_RGB_UNDERGLOW_EXT_POWER
     bool "RGB underglow toggling also controls external power"
     default y
 
-config ZMK_RGB_UNDERGLOW_AUTO_OFF_IDLE
-   bool "Turn off RGB underglow when keyboard goes into idle state"
-   default y
-
-config ZMK_RGB_UNDERGLOW_AUTO_OFF_USB
-    bool "Turn off RGB underglow when USB is disconnected"
-    default n
-
 config ZMK_RGB_UNDERGLOW_BRT_MIN
     int "RGB underglow minimum brightness in percent"
     range 0 100
