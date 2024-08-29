@@ -8,10 +8,6 @@ endif
 #ZMK_RGB_UNDERGLOW
 if ZMK_RGB_UNDERGLOW
 
-config ZMK_RGB_UNDERGLOW
-    bool "Enable RGB underglow"
-    deafult y
-
 config ZMK_RGB_UNDERGLOW_EXT_POWER
     bool "RGB underglow toggling also controls external power"
     default y
