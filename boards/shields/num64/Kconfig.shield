@@ -1,2 +1,0 @@
-config SHIELD_NUM64S
-    def_bool $(shields_list_contains,num64s)
