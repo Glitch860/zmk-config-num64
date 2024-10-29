@@ -1,6 +1,6 @@
 file_format: "1"
-id: num64
-name: num64
+id: num64s
+name: num64s
 type: shield
 url: https://github.com/Glitch860/Num64/
 requires: [nice_nano_v2]
