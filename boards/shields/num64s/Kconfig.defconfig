@@ -3,6 +3,9 @@ if SHIELD_NUM64S
  config ZMK_KEYBOARD_NAME
      default "num64s"
 
+config BT_DEVICE_NAME
+    default "num64s"
+
 endif
 
 #ZMK_RGB_UNDERGLOW
