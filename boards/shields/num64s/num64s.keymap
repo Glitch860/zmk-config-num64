@@ -65,5 +65,14 @@ keymap {
                               &kp LWIN   &kp LALT   &kp LBKT      &kp BSPC                               &kp SPACE          &lt FUNCTION ENTER   &kp RBKT   &kp RALT  &kp K_APP &kp LEFT   &kp DOWN &kp RIGHT  &kp KP_N0  &kp KP_ENTER
             >;
          };
+        studio1_layer {
+            status = "reserved";
+        };
+        studio2_layer {
+            status = "reserved";
+        };
+        studio3_layer {
+            status = "reserved";
+        };
     };
 };
