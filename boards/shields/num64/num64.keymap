@@ -74,6 +74,12 @@ keymap {
         studio3_layer {
             status = "reserved";
         };
+        studio4_layer {
+            status = "reserved";
+        };
+        studio5_layer {
+            status = "reserved";
+        };
     };
 };
  
