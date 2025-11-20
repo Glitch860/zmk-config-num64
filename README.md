@@ -17,25 +17,6 @@ For 3D printer files, Gerber fles for PCB fab browse to this (repo)[https://gith
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview1"
-     pagecolor="#505050"
-     bordercolor="#eeeeee"
-     borderopacity="1"
-     inkscape:showpageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#505050"
-     inkscape:document-units="mm"
-     inkscape:zoom="0.1767767"
-     inkscape:cx="-147.07821"
-     inkscape:cy="1337.846"
-     inkscape:window-width="1920"
-     inkscape:window-height="1009"
-     inkscape:window-x="1192"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg1" />
   <defs
      id="defs1">
     <rect
@@ -84,7 +65,7 @@ For 3D printer files, Gerber fles for PCB fab browse to this (repo)[https://gith
      transform="translate(476.9212,132.08639)">
     <g
        id="g31"
-       style="fill:#000000">
+       style="fill:#FFFFFF">
       <path
          d="M -225.67263,-125.78018 -6.7515233,0.61398877 V 287.41011 L -225.67263,161.01594 Z"
          style="fill:#e9e9ff;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
@@ -189,3 +170,4 @@ ShareAlike — If you remix, transform, or build upon the material, you must dis
 
 
 No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+
