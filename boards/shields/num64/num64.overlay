@@ -1,5 +1,6 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include "num64.dtsi"
+#include "../nice_nano.overlay"
 / {
     chosen {
         zmk,underglow = &led_strip;
