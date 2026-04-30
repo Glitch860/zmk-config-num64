@@ -1,5 +1,11 @@
 #include <dt-bindings/led/led.h>
-
+/ {
+    // This creates the 'generic' power device the compiler is looking for
+    ext-power {
+        compatible = "zmk,ext-power-generic";
+        control-gpios = <&gpio0 13 GPIO_ACTIVE_HIGH>; // Standard for nice!nano v2
+    };
+};
 &pinctrl {
     spi3_default: spi3_default {
         group1 {
