@@ -16,11 +16,7 @@
 #define SETTINGS 3
 #define FN 4
 
-/ {
-    chosen {
-        zmk,underglow = &led_strip;
-    };
-};
+&led_strip { chain-length = <1>; };
 
 / {
 
